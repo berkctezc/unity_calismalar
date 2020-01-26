@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class Transform : MonoBehaviour
 {
+    public float
+        SpeedX,
+        SpeedY,
+        SpeedZ;
+    
+    
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +20,9 @@ public class Transform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.Translate(
+            SpeedX*Time.deltaTime,
+            SpeedY*Time.deltaTime,
+            SpeedZ*Time.deltaTime);
     }
 }

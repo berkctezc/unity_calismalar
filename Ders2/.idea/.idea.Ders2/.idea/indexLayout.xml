@@ -18,6 +18,7 @@
       <Path>Logs</Path>
       <Path>Temp</Path>
       <Path>UIElementsSchema</Path>
+      <Path>builds</Path>
       <Path>obj</Path>
       <Path>test</Path>
     </explicitExcludes>
