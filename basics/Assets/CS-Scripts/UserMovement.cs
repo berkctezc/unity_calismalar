@@ -7,9 +7,8 @@ public class UserMovement : MonoBehaviour
 {
     public float 
         forceMultiplier=1;
-    
+
     private Rigidbody rigidbodyref;
-    
     
     
     void Start()

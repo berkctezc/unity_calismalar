@@ -20,10 +20,4 @@ public class CameraBehaviour : MonoBehaviour
     {
         transform.position = characterRef.transform.position + cam_characterDistance;
     }
-    
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
